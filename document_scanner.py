@@ -31,7 +31,7 @@ def scan_document(image_path, image_name):
     warped = (warped > T).astype("uint8") * 255
 
     folder_name = 'results/' + image_name.split(".")[0]
-    save_image(folder_name, '1_original_image.jpg', image)
+    save_image(folder_name, '1_original_image.jpg', orig)
     save_image(folder_name, '2_edged_image.jpg', edged)
     save_image(folder_name, '3_image_with_contour.jpg', image_with_contours)
     save_image(folder_name, '4_scanned_image.jpg', warped)
