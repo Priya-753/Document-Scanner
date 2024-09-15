@@ -1,6 +1,8 @@
 # Document Scanner
 A Python-based document scanner that processes images to detect and extract documents. This script leverages OpenCV to handle image processing tasks and generates results saved in a specified directory.
 
+![scanned images](https://github.com/Priya-753/Document-Scanner/docs/result.jpg?raw=true)
+
 ## Features
 - Scans all images in a folder.
 - Detects documents within images.
